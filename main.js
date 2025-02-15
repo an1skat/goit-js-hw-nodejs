@@ -14,4 +14,6 @@ form.addEventListener("submit", (e) => {
     email: email,
     password: pass,
   });
+  alert("You are register!");
+  return window.reload
 });
